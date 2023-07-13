@@ -1,0 +1,17 @@
+* {
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+.success {
+    background-color: rgb(94, 234, 44);
+    color: #fff;
+}
+
+.fail {
+    background-color: rgb(204, 68, 38);
+    color: #fff;
+}

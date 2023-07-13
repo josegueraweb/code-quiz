@@ -1,32 +1,45 @@
-<!-- Webpage_state01-->
-
-
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebDev Quiz </title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
+
     <header>
-        <a href="./high-scores.html">View High Scores</a>
-        <div>Timer: </div>
+
+        <button><a href="./high-scores.html">View High Scores</a></button>
+
         <h1>Web Development Quiz Challenge</h1>
-        <h2>Try to answer as many questions as you can within the time limit. Each wrong answer will take time some time off the clock so answer carefully!</h2>
-        <button class="start-button">Start</button>
+
     </header>
     <main>
-        <section class="quiz-board"></section>
-        <section></section>
-        <section></section>
-        <section></section>
+        <h2>Try to answer as many questions as you can within the time limit.</h2>
 
-     </main>
+        <h3>Each wrong answer will take time some time off the clock so answer carefully!</h3>
+
+        <section class="quiz-board">
+            <div class="quiz-timer"></div>
+        </section>
+
+        <section class="controls">
+            <button id="start-button">Start</button>
+            <button class="button-answer hide">Option 1</button>
+            <button class="button-answer hide">Option 2</button>
+            <button class="button-answer hide">Option 3</button>
+            <button class="button-answer hide">Option 4</button>
+        </section>
+
+    </main>
+
     <script src="./assets/js/script.js"></script>
+
 </body>
+
 </html>
 
 
