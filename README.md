@@ -1,4 +1,4 @@
-# **Timed Quiz Game**
+# **Code Quiz**
  
 ## **Project Description**
 
