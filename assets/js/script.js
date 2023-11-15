@@ -6,6 +6,8 @@ var quizEndMsg = document.querySelector(".quiz-end-msg");
 // state variable to keep track of time. 
 var secondsLeft = 10;
 
+questionBank = [];
+
 // function that will start quiz game
 function startGame() {
     var countdownTimer = setInterval(function () {
